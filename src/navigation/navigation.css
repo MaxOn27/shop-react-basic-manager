@@ -1,0 +1,26 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5% 0;
+  width: 100%;
+  background-color: black;
+  margin-bottom: 3%;
+}
+
+.nav-list {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: aliceblue;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  margin-right: 40px;
+  font-size: 1.05rem;
+}
